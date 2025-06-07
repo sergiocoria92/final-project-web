@@ -10,4 +10,11 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
+  <footer>
+    <script>
+      // This script is used to handle the hot module replacement in development mode
+      if (import.meta.hot) {
+        import.meta.hot.accept();
+      }
+    </script>
 </html>

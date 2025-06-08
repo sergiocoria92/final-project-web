@@ -1,20 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-  <footer>
-    <script>
-      // This script is used to handle the hot module replacement in development mode
-      if (import.meta.hot) {
-        import.meta.hot.accept();
-      }
-    </script>
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="/src/styles/footer.css">
+  <link rel="stylesheet" href="/src/styles/home.css">
+  <link rel="stylesheet" href="/src/styles/header.css">
+  <link rel="icon" href="/public/images/favicon/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+  <!-- El header se insertará dinámicamente aquí -->
+  
+  <section class="hero">
+    <h2>Welcome to Your Safe Space</h2>
+    <p>Discover therapy that adapts to your rhythm.</p>
+    <a href="book.html" class="btn">Schedule Now</a>
+  </section>
+
+  <!-- El footer se insertará dinámicamente aquí -->
+
+  <!-- Solo este script importa todo lo necesario -->
+  <script type="module" src="./src/js/main.js"></script>
+</body>
 </html>

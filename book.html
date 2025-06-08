@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book</title>
+  <link rel="stylesheet" href="/src/styles/book.css">
+  <link rel="stylesheet" href="/src/styles/footer.css">
+  <link rel="stylesheet" href="/src/styles/header.css">
+  <link rel="icon" href="/public/images/favicon/favicon.ico" type="image/x-icon">
+
+</head>
+
+</html>
+<body>
+  <header> <!-- Igual --> </header>
+
+  <section class="booking">
+    <h2>Schedule an Appointment</h2>
+    <form id="booking-form">
+      <label>Name:<input type="text" required /></label>
+      <label>Email:<input type="email" required /></label>
+      <label>Select Package:
+        <select>
+          <option>1 Session/Week</option>
+          <option>2 Sessions/Week</option>
+          <option>4 Sessions/Week</option>
+        </select>
+      </label>
+      <label>Date:<input type="date" required /></label>
+      <button type="submit">Confirm Appointment</button>
+    </form>
+  </section>
+
+  <script type="module" src="./src/js/main.js"></script>
+</body>
+</html>

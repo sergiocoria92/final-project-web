@@ -1,0 +1,37 @@
+/* Fonts */
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav {
+  background-color: #B39DDB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-size: 18px; /* <-- Aquí cambias el tamaño */
+
+}
+
+/*"title"*/
+nav h1 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}

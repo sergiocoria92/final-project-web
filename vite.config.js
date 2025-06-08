@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import { resolve } from 'path'
 
 export default defineConfig({
-  root: '.', // la raíz es donde está tu index.html
+  base: '/final-project/', // nombre del repo en GitHub
   build: {
     rollupOptions: {
       input: {
@@ -13,5 +13,5 @@ export default defineConfig({
       }
     }
   },
-  publicDir: 'public' // para que funcione /images/... desde public/
-})
+  publicDir: 'public'
+});
